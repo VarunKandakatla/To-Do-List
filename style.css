@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.main-container{
+    background-color: tomato;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4.7%;
+}
+
+
+.side-container{
+    height: 100vh;
+    width: 25%;
+    margin: 0px;
+   
+    position: fixed;
+
+}
+
+.data-container{
+    width: 74%;
+    margin-left: 25%;
+    padding: 0px; 
+}
+
+.top{
+    background-color: tomato;
+    /* padding: 5px; */
+    width: 100%;
+    
+}
+
+.bottom{
+    background-color: black;
+    height: 25vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0px;
+    left: 25%;
+    right: 0px;
+}
+
+.lists{
+    background-color: springgreen;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: large;
+
+}
+
+.img{
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+}
+
+img{
+    width: 25%;
+    height: 100vh;
+}
+
+#task{
+    height:35px;
+    width: 650px;
+    margin-right: 15px;
+    font-size: large;
+  
+}
+
+#submit{
+    height: 40px;
+    font-size: large;
+}
+
+.top-bar{
+    background-color: black;
+    /* border: 3px solid yellow; */
+    margin: 0px;
+    padding: 5px;
+    color: yellow;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+}
